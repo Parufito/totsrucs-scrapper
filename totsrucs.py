@@ -43,12 +43,12 @@ def main(start_url):
     results = {}
 
     for i, link in enumerate(fitxa_links, 1):
-        print(f"\n[{i:02d}] Processant: {link}")
+        #print(f"\n[{i:02d}] Processant: {link}")
         extracted = extract_http_texts_from_page(link)
         results[link] = extracted
 
         for j, e in enumerate(extracted, 1):
-            print(f"    ({j}) {e}")
+            print(f"{e}")
 
         time.sleep(1.5)
 
