@@ -36,10 +36,10 @@ Recomanat: crea i activa un entorn virtual:
 ## Ús (exemples)
 
 - Escriure la llista d'enllaços a la consola:
-  python3 scrapper.py "https://web.totsrucs.cat/index.php?pagina=series&veure=temporada&id=8213"
+  python3 totsrucs.py "https://web.totsrucs.cat/index.php?pagina=series&veure=temporada&id=8213"
 
 - Guardar la sortida a un fitxer:
-  python3 scrapper.py "https://web.totsrucs.cat/index.php?pagina=series&veure=temporada&id=8213" > elinks.txt
+  python3 totsrucs.py "https://web.totsrucs.cat/index.php?pagina=series&veure=temporada&id=8213" > elinks.txt
 
 
 ## Notes
